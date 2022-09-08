@@ -1,0 +1,286 @@
+******************LARGE_TEST_RERANKING_EXP********************************
+AUTO_ENCODER_1SCALE756_0.5OVERLAP_EPOCH24_KEEP_ASPEC_RATIO
+>> max_distance : 0.83 
+>> roxford5k: mAP M: 73.48, H: 50.96 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 94.   89.57], H: [91.43 78.57 69.86] 
+>> max_distance : 0.81 
+>> roxford5k: mAP M: 73.31, H: 50.59 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 94.57 88.57], H: [92.86 76.86 67.57] 
+>> max_distance : 0.79 
+>> roxford5k: mAP M: 73.12, H: 50.89 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 93.43 88.86], H: [94.29 77.14 69.  ] 
+>> max_distance : 0.86 
+>> roxford5k: mAP M: 73.07, H: 50.64 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 94.   88.71], H: [94.29 77.14 68.57] 
+>> max_distance : 0.82 
+>> roxford5k: mAP M: 73.02, H: 50.59 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.86 88.71], H: [92.86 77.14 68.71] 
+>> max_distance : 0.78 
+>> roxford5k: mAP M: 73.22, H: 50.66 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 93.71 89.14], H: [94.29 78.   69.57] 
+
+AUTO_ENCODER_5SCALE[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH24_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 68.92, H: 46.18 
+>> roxford5k: mP@k[ 1  5 10] M: [91.43 85.43 81.29], H: [74.29 72.29 66.  ] 
+>> max_distance : 0.88 
+>> roxford5k: mAP M: 73.98, H: 51.13 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 94.   90.29], H: [95.71 78.86 70.71] 
+>> max_distance : 0.87 
+>> roxford5k: mAP M: 73.75, H: 51.11 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 94.29 90.  ], H: [95.71 79.14 70.14] 
+>> max_distance : 0.86 
+>> roxford5k: mAP M: 74.04, H: 51.26 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 94.86 90.  ], H: [94.29 78.86 70.29] 
+>> max_distance : 0.81 
+>> roxford5k: mAP M: 73.84, H: 50.92 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 94.57 89.43], H: [95.71 78.86 70.14] 
+>> max_distance : 0.79 
+>> roxford5k: mAP M: 73.76, H: 51.15 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 94.57 89.43], H: [94.29 78.29 70.29] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 80.91, H: 61.93 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.43 96.71], H: [92.86 91.43 90.86] 
+>> max_distance : 0.87 
+>> rparis6k: mAP M: 81.38, H: 62.06 
+>> rparis6k: mP@k[ 1  5 10] M: [100. 100.  99.], H: [100.    97.71  94.86] 
+>> max_distance : 0.86 
+>> rparis6k: mAP M: 81.3, H: 61.86 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  98.86], H: [100.    96.86  94.  ] 
+
+AUTO_ENCODER_5SCALE_BASE_576[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH24_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 68.92, H: 46.18 
+>> roxford5k: mP@k[ 1  5 10] M: [91.43 85.43 81.29], H: [74.29 72.29 66.  ] 
+>> max_distance : 0.84 
+>> roxford5k: mAP M: 73.81, H: 51.8 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 94.57 89.86], H: [94.29 78.   70.29] 
+>> max_distance : 0.82 
+>> roxford5k: mAP M: 74.04, H: 51.62 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 94.29 90.29], H: [95.71 78.29 70.29]
+
+>> max_distance : GLOBAL 
+>> rparis6k: mAP M: 80.91, H: 61.93 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.43 96.71], H: [92.86 91.43 90.86] 
+>> max_distance : 0.84 
+>> rparis6k: mAP M: 81.31, H: 61.96 
+>> rparis6k: mP@k[ 1  5 10] M: [100. 100.  99.], H: [100.    97.14  94.29] 
+>> max_distance : 0.82 
+>> rparis6k: mAP M: 81.42, H: 62.14 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  98.86], H: [98.57 96.57 94.57] 
+
+******************SMALL_TEST_RERANKING_EXP********************************
+AUTO_ENCODER_5SCALE_BASE_576[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH24_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 79.64, H: 62.03 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.57 89.93], H: [88.57 83.14 76.64] 
+>> max_distance : 0.84 
+>> roxford5k: mAP M: 83.09, H: 66.59 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 96.29 94.  ], H: [97.14 88.   79.14] 
+>> max_distance : 0.82 
+>> roxford5k: mAP M: 83.17, H: 66.72 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 96.29 93.71], H: [97.14 87.43 80.  ] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 91.58, H: 81.98 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.43 97.  ], H: [94.29 94.86 94.57] 
+>> max_distance : 0.84 
+>> rparis6k: mAP M: 91.47, H: 80.81 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  98.86], H: [98.57 97.71 96.29] 
+>> max_distance : 0.82 
+>> rparis6k: mAP M: 91.51, H: 80.87 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  98.71], H: [98.57 98.   96.29] 
+
+
+******************LARGE_TEST_RERANKING_EXP_MED********************************
+AUTO_ENCODER_5SCALE_BASE_576[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH28_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 69.39, H: 46.3 
+>> roxford5k: mP@k[ 1  5 10] M: [90.   85.43 81.29], H: [74.29 71.79 65.5 ] 
+>> max_distance : 0.78 
+>> roxford5k: mAP M: 74.1, H: 52.33 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 93.43 89.14], H: [92.86 78.86 72.29] 
+
+>> max_distance : GLOBAL 
+>> rparis6k: mAP M: 81.34, H: 62.94 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.71 96.86], H: [94.29 92.86 90.  ] 
+
+>> max_distance : 0.78 
+>> rparis6k: mAP M: 81.93, H: 62.96 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    99.14], H: [100.    96.86  92.57] 
+
+******************SMALL_TEST_RERANKING_EXP_MED********************************
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 79.63, H: 61.34 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.57 88.57], H: [87.14 81.79 74.79] 
+>> max_distance : 0.78 
+>> roxford5k: mAP M: 81.82, H: 63.6 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 94.86 92.29], H: [91.43 83.71 76.86] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 91.36, H: 81.46 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.71 97.43], H: [95.71 95.14 94.43] 
+>> max_distance : 0.78 
+>> rparis6k: mAP M: 91.32, H: 80.35 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    99.29], H: [100.    96.86  94.57] 
+
+
+******************LARGE_TEST_RERANKING_EXP_MED********************************
+AUTO_ENCODER_5SCALE_BASE_576[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH29_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL 
+>> roxford5k: mAP M: 69.39, H: 46.3 
+>> roxford5k: mP@k[ 1  5 10] M: [90.   85.43 81.29], H: [74.29 71.79 65.5 ] 
+>> max_distance : 0.79 
+>> roxford5k: mAP M: 74.26, H: 52.27 
+>> roxford5k: mP@k[ 1  5 10] M: [94.29 94.29 90.  ], H: [92.86 79.14 71.57] 
+
+
+>> max_distance : GLOBAL 
+>> rparis6k: mAP M: 81.34, H: 62.94 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.71 96.86], H: [94.29 92.86 90.  ] 
+>> max_distance : 0.79 
+>> rparis6k: mAP M: 81.84, H: 62.68 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 99.71 98.71], H: [98.57 95.71 92.43] 
+
+
+******************SMALL_TEST_RERANKING_EXP_MED********************************
+AUTO_ENCODER_5SCALE_BASE_576[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH29_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 79.63, H: 61.34 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.57 88.57], H: [87.14 81.79 74.79] 
+>> max_distance : 0.79 
+>> roxford5k: mAP M: 82.37, H: 64.3 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 94.86 93.  ], H: [92.86 84.86 77.86] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 91.36, H: 81.46 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.71 97.43], H: [95.71 95.14 94.43] 
+>> max_distance : 0.79 
+>> rparis6k: mAP M: 91.38, H: 80.4 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    99.14], H: [100.    96.57  94.71] 
+
+
+
+******************SMALL_TEST_RERANKING_EXP_MED********************************
+AUTO_ENCODER_5SCALE_BASE_512[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH29_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 79.63, H: 61.34 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.57 88.57], H: [87.14 81.79 74.79] 
+>> max_distance : 0.8 
+>> roxford5k: mAP M: 82.12, H: 64.27 
+>> roxford5k: mP@k[ 1  5 10] M: [98.57 95.24 92.52], H: [95.71 83.52 76.24] 
+>> max_distance : 0.79 
+>> roxford5k: mAP M: 82.84, H: 65.79 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 95.71 93.14], H: [94.29 86.29 77.86] 
+>> max_distance : 0.74 
+>> roxford5k: mAP M: 82.22, H: 64.17 
+>> roxford5k: mP@k[ 1  5 10] M: [94.29 96.   92.71], H: [92.86 85.14 76.57] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 91.36, H: 81.46 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.71 97.43], H: [95.71 95.14 94.43] 
+>> max_distance : 0.79 
+>> rparis6k: mAP M: 91.36, H: 80.21 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    99.29], H: [98.57 96.86 94.86] 
+>> max_distance : 0.74 
+>> rparis6k: mAP M: 91.43, H: 80.6 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  99.29], H: [98.57 96.86 96.  ] 
+>> max_distance : 0.8 
+>> rparis6k: mAP M: 91.39, H: 80.32 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    99.29], H: [98.57 96.   94.43] 
+
+******************LARGE_TEST_RERANKING_EXP_MED********************************
+AUTO_ENCODER_5SCALE_BASE_512[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH29_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 69.39, H: 46.3 
+>> roxford5k: mP@k[ 1  5 10] M: [90.   85.43 81.29], H: [74.29 71.79 65.5 ] 
+>> max_distance : 0.79 
+>> roxford5k: mAP M: 74.32, H: 52.29 
+>> roxford5k: mP@k[ 1  5 10] M: [94.29 94.   90.  ], H: [91.43 79.43 71.  ] 
+>> max_distance : 0.74 
+>> roxford5k: mAP M: 74.34, H: 52.08 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 94.   89.71], H: [92.86 79.43 70.86] 
+>> max_distance : 0.8 
+>> roxford5k: mAP M: 74.06, H: 52.27 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 93.52 89.38], H: [94.29 78.38 70.52] 
+
+>> max_distance : GLOBAL 
+>> rparis6k: mAP M: 81.34, H: 62.94 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.71 96.86], H: [94.29 92.86 90.  ] 
+>> max_distance : 0.79 
+>> rparis6k: mAP M: 81.95, H: 62.77 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    99.14], H: [100.    96.57  92.43] 
+>> max_distance : 0.74 
+>> rparis6k: mAP M: 81.98, H: 62.93 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  99.14], H: [100.    95.71  92.43] 
+>> max_distance : 0.8 
+>> rparis6k: mAP M: 82.0, H: 62.99 
+>> rparis6k: mP@k[ 1  5 10] M: [100. 100.  99.], H: [100.    96.29  92.57] 
+
+
+
+******************SMALL_TEST_RERANKING_EXP_MED_NONCROP********************************
+AUTO_ENCODER_5SCALE_BASE_512[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH29_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 84.42, H: 65.89 
+>> roxford5k: mP@k[ 1  5 10] M: [98.57 96.29 92.57], H: [92.86 84.29 77.14] 
+>> max_distance : 0.76 
+>> roxford5k: mAP M: 86.66, H: 70.57 
+>> roxford5k: mP@k[ 1  5 10] M: [98.57 97.24 95.95], H: [94.29 90.38 82.1 ] 
+
+>> max_distance : GlOBAL
+>> rparis6k: mAP M: 92.53, H: 83.6 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.14  98.86], H: [98.57 97.14 97.  ] 
+>> max_distance : 0.76 
+>> rparis6k: mAP M: 92.66, H: 83.2 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    99.71], H: [100.    99.43  98.57] 
+
+******************LARGE_TEST_RERANKING_EXP_MED_NONCROP********************************
+AUTO_ENCODER_5SCALE_BASE_512[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH29_KEEP_ASPEC_RATIO
+
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 77.95, H: 55.37 
+>> roxford5k: mP@k[ 1  5 10] M: [98.57 95.14 90.  ], H: [91.43 80.29 71.57] 
+>> max_distance : 0.76 
+>> roxford5k: mAP M: 80.27, H: 59.56 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 96.95 94.1 ], H: [92.86 87.24 77.38] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 84.01, H: 67.76 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    98.86  98.43], H: [98.57 95.71 94.  ] 
+>> max_distance : 0.76 
+>> rparis6k: mAP M: 84.58, H: 68.16 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    99.71], H: [100.    98.86  97.71] 
+
+******************SMALL_TEST_RERANKING_EXP_NONCROP********************************
+AUTO_ENCODER_5SCALE_BASE_576[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH24_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 83.55, H: 64.94 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 95.71 92.57], H: [92.86 86.29 78.57] 
+>> max_distance : 0.81 
+>> roxford5k: mAP M: 85.62, H: 69.37 
+>> roxford5k: mP@k[ 1  5 10] M: [98.57 97.43 95.14], H: [95.71 90.57 83.  ] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 92.19, H: 83.38
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 98.86 98.29], H: [97.14 97.14 96.43]
+>> max_distance : 0.81 
+>> rparis6k: mAP M: 92.34, H: 83.25 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  99.43], H: [100.    99.71  99.29] 
+
+******************LARGE_TEST_RERANKING_EXP_NONCROP********************************
+AUTO_ENCODER_5SCALE_BASE_576[0.3535, 0.5, 0.7071, 1.0, 1.4142]_0.5OVERLAP_EPOCH24_KEEP_ASPEC_RATIO
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 77.13, H: 53.64 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 92.   88.57], H: [87.14 80.29 71.43] 
+>> max_distance : 0.81 
+>> roxford5k: mAP M: 78.79, H: 58.09 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 94.86 91.57], H: [92.86 84.   75.29] 
+
+>> max_distance : GLOBAL 
+>> rparis6k: mAP M: 83.14, H: 66.42 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 98.57 97.29], H: [97.14 94.86 93.71] 
+>> max_distance : 0.81 
+>> rparis6k: mAP M: 83.6, H: 66.97 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  99.29], H: [98.57 99.43 97.71] 

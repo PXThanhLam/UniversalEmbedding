@@ -1,0 +1,92 @@
+GLOBAL
+*************
+3-scale
+Global search mAP
+>> roxford5k: mAP M: 79.28, H: 60.53
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 91.62 88.33], H: [85.71 81.14 75.27]
+Global search mAP
+>> rparis6k: mAP M: 91.68, H: 82.18
+>> rparis6k: mP@k[ 1  5 10] M: [100.    97.71  97.  ], H: [95.71 94.86 94.71]
+5-scale
+Global search mAP
+>> roxford5k: mAP M: 77.73, H: 59.9
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 91.14 88.14], H: [88.57 82.   73.29]
+Global search mAP
+>> rparis6k: mAP M: 91.18, H: 80.75
+>> rparis6k: mP@k[ 1  5 10] M: [100.    97.14  96.86], H: [95.71 94.29 94.14]
+7-scale
+Global search mAP
+>> roxford5k: mAP M: 77.6, H: 60.01
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 91.43 88.  ], H: [87.14 82.   72.71]
+Global search mAP
+>> rparis6k: mAP M: 91.19, H: 80.74
+>> rparis6k: mP@k[ 1  5 10] M: [100.    97.43  97.  ], H: [95.71 94.86 93.86]
+**************
+LOCAL
+1-scale720
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 79.64, H: 62.03 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.57 89.93], H: [88.57 83.14 76.64] 
+>> max_distance : 0.87 
+>> roxford5k: mAP M: 82.06, H: 64.76 
+>> roxford5k: mP@k[ 1  5 10] M: [97.14 95.43 92.57], H: [95.71 85.14 77.84] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 91.58, H: 81.98 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.43 97.  ], H: [94.29 94.86 94.57] 
+>> max_distance : 0.87 
+>> rparis6k: mAP M: 91.63, H: 81.34 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  99.  ], H: [100.    98.    97.14] 
+
+3-scale512
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 79.64, H: 62.03 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.57 89.93], H: [88.57 83.14 76.64] 
+>> max_distance : 0.89 
+>> roxford5k: mAP M: 83.15, H: 66.27 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 96.29 94.14], H: [94.29 88.29 80.13] 
+>> max_distance : 0.83 
+>> roxford5k: mAP M: 83.18, H: 67.3 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 96.   94.  ], H: [95.71 87.71 81.14] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 91.58, H: 81.98 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.43 97.  ], H: [94.29 94.86 94.57] 
+>> max_distance : 0.89 
+>> rparis6k: mAP M: 91.61, H: 81.2 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  99.14], H: [100.    98.    96.57] 
+>> max_distance : 0.83 
+>> rparis6k: mAP M: 91.53, H: 80.86 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.71  99.  ], H: [98.57 98.   96.29] 
+7-scale512
+
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 79.64, H: 62.03 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.57 89.93], H: [88.57 83.14 76.64] 
+>> max_distance : 0.87 
+>> roxford5k: mAP M: 82.29, H: 65.1 
+>> roxford5k: mP@k[ 1  5 10] M: [94.29 95.14 93.71], H: [92.86 87.14 78.27] 
+
+>> max_distance : GLOBAL
+>> rparis6k: mAP M: 91.58, H: 81.98 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.43 97.  ], H: [94.29 94.86 94.57] 
+>> max_distance : 0.87 
+>> rparis6k: mAP M: 91.34, H: 80.79 
+>> rparis6k: mP@k[ 1  5 10] M: [100.    99.14  98.29], H: [98.57 97.71 95.71] 
+
+1-scale512
+
+>> max_distance : GLOBAL 
+>> rparis6k: mAP M: 91.58, H: 81.98 
+>> rparis6k: mP@k[ 1  5 10] M: [98.57 97.43 97.  ], H: [94.29 94.86 94.57] 
+>> max_distance : 0.93 
+>> rparis6k: mAP M: 91.38, H: 80.73 
+>> rparis6k: mP@k[ 1  5 10] M: [100.   100.    98.57], H: [98.57 97.14 95.57] 
+
+>> max_distance : GLOBAL
+>> roxford5k: mAP M: 79.64, H: 62.03 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 92.57 89.93], H: [88.57 83.14 76.64] 
+>> max_distance : 0.93 
+>> roxford5k: mAP M: 82.53, H: 65.02 
+>> roxford5k: mP@k[ 1  5 10] M: [95.71 96.29 93.43], H: [94.29 86.86 78.56] 
+
